@@ -1,0 +1,494 @@
+.body{
+    font-family: 'Cutive Mono', monospace ;
+    background-color:burlywood ;
+    height:100%;   
+
+}
+
+/* navigation/header */
+
+.navigation{
+    overflow:hidden;
+    font-weight: bolder;
+    padding-bottom: 3%;
+    position:sticky;
+}
+
+.navigation a div{
+float:left;
+font-size:16px;
+color:WHITE;
+text-align: white;
+padding-top:14px;
+padding-left:14px;
+padding-right:14px;
+text-decoration:none;
+font-size: larger;
+
+}
+
+#nav-login{
+    float:right;
+}
+
+#nav-logo{
+    height:50px;
+    left:45%;
+    position:absolute;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* body */
+
+.main-container{
+    overflow: hidden;
+    display: absolute;
+    position: relative;
+    padding-bottom: 100px; 
+}
+
+.hero{
+    position:relative;
+}
+
+
+body.hero{
+    position: block;
+    width:100%;
+    height: auto;
+}
+
+#butt_img{
+    position:block;
+}
+
+#butt_img img{
+    /*margin-top: 5px;*/
+    width:100%;
+    z-index: 0;
+    position: relative;
+
+}
+
+.butt{
+    position: absolute;
+    top:70%;
+    left:46%;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#butt2{
+    position: absolute;
+    top:50%;
+    left:45.5%;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;   
+}
+
+.img-space{
+padding:3%;
+}
+
+/* footer */
+.copy-right{
+    position:block;
+    float:left;
+    padding:14px;
+    color:white;
+
+}
+.list a{
+    color:white;
+    text-decoration:none;
+}
+.list{
+
+    font-weight: bolder;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type:none;
+  
+}
+
+.footer{
+    padding-top: 5%;
+    position:relative;
+    bottom:0;
+}
+
+/* meals */
+
+.ul-meals{
+    column-count:2;
+    list-style-type:none;
+    position:block;
+    
+}
+
+.li-meals{
+    width:100%;
+    position:block;
+}
+
+.li-meals img{
+width:100%;
+height:auto;
+}
+
+
+.top{
+    height:auto;
+    background-color: rgb(245, 237, 220) ;
+    color:black;
+    padding-top:5%;
+    padding-bottom: 5%;
+    position:relative;
+    height:100%;
+}
+
+h2{
+    text-align: center;
+}
+
+/*registration and login form*/
+.fineprint{
+   font-size: x-small;
+}
+
+#reg_container{
+    padding-top: 5%;
+    width:100%;
+position:block;
+text-align:center;
+}
+
+
+input{
+height:25px;
+width:50%;
+border-radius: 10px;
+}
+
+#reg-form{
+    background-color: rgb(245, 237, 220) ;
+    text-align:center;
+    vertical-align:middle;
+    position:block;
+    border-radius: 10px;
+    border: 6px solid black;
+    padding-top: 5%;
+    padding-bottom: 10%;
+
+}
+
+.labels{
+    text-align: right;
+}
+
+.error{
+color: red;
+padding:1%;
+font-size: small;
+}
+
+.success{
+    color: green;
+    padding:1%;
+    font-size: small;
+    }
+
+
+/* Menu */
+#menu-page{
+    background-color: rgb(245, 237, 220);
+    padding-bottom: 5%;
+}
+
+h4{
+    padding:5%;
+    text-align: center;
+}
+
+#grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.meal img{
+    width:100%;
+    padding: 5%;
+}
+
+.meal{
+    padding: 5%;
+    display: block;
+}
+
+/* Content */
+
+#content{
+
+    background-color: burlywood ;
+}
+
+#reviews{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.reviewHeader,h4{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;;
+}
+
+.re{
+    text-align: center;
+    padding:3%;
+}
+
+.fav{
+    padding:3%;
+
+}
+
+#reviews img{
+    width:60%;
+    border-radius: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+#a{
+    background-color: rgb(245, 237, 220);
+}
+
+/* user-nav*/
+ #user-nav{
+    background-color: rgb(245, 237, 220);
+    overflow:hidden;
+    font-weight: bolder;
+    /*padding-bottom: 3%;*/
+    position:sticky;
+    padding:1%;
+}
+
+#name{
+    float:left;
+    position: relative;   
+}
+
+#other a{
+    float:right;
+    position: relative;
+    text-decoration: none;
+    color:black;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+/*profile*/
+
+.card{
+ background-color:white;
+}
+#card-body{
+    position: relative;
+padding:3%;
+}
+
+#card-body h4{
+padding:2%;
+}
+
+.profile_text{
+    padding:15px;
+}
+
+.profilePic{
+    width: 25%;
+    padding:10px;
+    float: left;
+
+}
+
+.profilePic img{
+    width: 100%;
+}
+
+.profile_info{
+background-color: rgb(247, 235, 210);
+width: 80%;
+float: right;
+padding: 1.5%;
+}
+
+.center{
+position:center;
+text-decoration: none;
+padding-left: 5%;
+}
+
+#butt3{
+    position: absolute;
+    top:93%;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;   
+}
+
+#menu-items-page{
+    background-color: white;
+    border-style: solid;
+    padding-top: 5%;
+    position:block;
+    text-align:center;
+}
+
+div#new-menu-file{
+    background-color: white;
+    border-style: solid;
+    padding-top: 5%;
+    position:block;
+    text-align:center;
+}
+
+#examples{
+    background-color: rgb(247, 235, 210);
+    border-style: solid;
+    padding:5%;
+}
+.small{
+    font-size: small;
+    padding-left: 7%;
+    padding-bottom: 2%;
+}
+
+#rules{
+    padding:5%;
+    font-size: large;
+}
+
+#included{
+    font-size: medium;
+ 
+}
+
+#format{
+    font-size: small;
+}
+
+#existing{
+    padding:5%;
+    font-size: medium;
+
+}
+
+.edit{
+    border: none;
+    cursor: pointer;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(247, 235, 210);
+}
+
+.existing_items{
+height: 35%;
+}
+
+.side_padding{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#edit_form{
+    text-align: center;
+}
+
+.text{
+    border-radius: 0px ;
+}
+
+#cart_img img{
+    width: 10%;
+    padding-top: 1%;
+}
+
+#cart_img{
+    left:46%;
+    position: relative;
+}
+
+#width100{
+    width:100%;
+    height: 20%;
+    position: relative;
+}
+
+#cart_items img{
+    width:80%;
+}
+
+#cart_items{
+    width:100%;
+    border-style: solid;
+    background-color: white;
+    color:black;
+    padding-left: 3%;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.padding5{
+    padding: 2%;
+}
+.Button{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.noDecoration a{
+    text-decoration: none !important;
+    color:black;
+}
+:hover .noDecoration a{
+    color: darkgreen;
+}
+
+.leftQty{
+    float:right;
+}
+
+.qty{
+    float:left;    
+}
+
+.no{
+    float:right;
+}
